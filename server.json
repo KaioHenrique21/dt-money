@@ -1,12 +1,19 @@
 {
-	"transactions": [
-		{
-			"id": 1,
-			"description": "Desenvolvimento de site",
-			"type": "income",
-			"category": "Venda",
-			"price": 14000,
-			"createAt": "2023-01-12T17:32:13.646Z"
-		}
-	]
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
